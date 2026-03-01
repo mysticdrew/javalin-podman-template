@@ -3,7 +3,7 @@ WORKDIR /workspace
 
 COPY gradle gradle
 COPY gradlew gradlew
-COPY settings.gradle build.gradle ./
+COPY settings.gradle build.gradle.kts ./
 COPY src src
 
 RUN chmod +x gradlew && ./gradlew --no-daemon clean installDist

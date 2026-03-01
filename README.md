@@ -1,6 +1,6 @@
 # javalin-podman-template
 
-Minimal Java 21 + Gradle 9.3.1 + Javalin 7 starter template.
+Minimal Kotlin/JVM 21 + Gradle 9.3.1 + Javalin 7 starter template.
 
 ## Quickstart
 

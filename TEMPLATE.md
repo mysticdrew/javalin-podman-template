@@ -5,14 +5,14 @@ Use this after creating a new repository from this template.
 ## 1. Rename project
 
 - Update `rootProject.name` in `settings.gradle`
-- Update `group` in `build.gradle` (recommended: your reverse domain, e.g. `com.acme`)
+- Update `group` in `build.gradle.kts` (recommended: your reverse domain, e.g. `com.acme`)
 
-## 2. Rename Java package
+## 2. Rename Kotlin package
 
-- Move `src/main/java/com/webapp` to your package path
-- Move `src/test/java/com/webapp` to your package path
+- Move `src/main/kotlin/com/webapp` to your package path
+- Move `src/test/kotlin/com/webapp` to your package path
 - Update `package` declarations and imports
-- Update `application.mainClass` in `build.gradle`
+- Update `application.mainClass` in `build.gradle.kts`
 
 ## 3. Verify locally
 

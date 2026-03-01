@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: ["main"]
+    branches: ["main", "javalin_7.0.1_java", "javalin_7.0.1_kotlin"]
   pull_request:
-    branches: ["main"]
+    branches: ["main", "javalin_7.0.1_java", "javalin_7.0.1_kotlin"]
 
 jobs:
   build:

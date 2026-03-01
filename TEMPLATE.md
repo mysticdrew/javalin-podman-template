@@ -16,17 +16,44 @@ Use this after creating a new repository from this template.
 
 ## 3. Verify locally
 
+Windows PowerShell:
+
 ```powershell
 .\scripts\bootstrap.ps1
 .\gradlew.bat run
 ```
 
+Windows cmd:
+
+```bat
+scripts\bootstrap.bat
+gradlew.bat run
+```
+
+macOS/Linux:
+
+```sh
+chmod +x gradlew scripts/*.sh
+./scripts/bootstrap.sh
+./gradlew run
+```
+
 ## 4. Verify container
+
+Windows PowerShell:
 
 ```powershell
 .\scripts\container-up.ps1
 ```
 
-## 5. First commit
+Windows cmd:
 
-- Replace this file with project-specific onboarding notes, or delete it once setup is complete.
+```bat
+scripts\container-up.bat
+```
+
+macOS/Linux:
+
+```sh
+./scripts/container-up.sh
+```

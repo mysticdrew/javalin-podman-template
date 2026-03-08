@@ -15,7 +15,7 @@ dependencies {
   implementation("org.jetbrains.kotlin:kotlin-stdlib")
   implementation("io.javalin:javalin:7.0.1")
   implementation("com.fasterxml.jackson.core:jackson-databind:2.20.1")
-  implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.20.1")
+  implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.21.1")
   runtimeOnly("ch.qos.logback:logback-classic:1.5.18")
 
   testImplementation(platform("org.junit:junit-bom:5.12.2"))
